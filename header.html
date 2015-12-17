@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+	<title>Web</title>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no">
+	<!--  Viewport setting -->
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+	
+	<!--  Font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+	
+	<!-- Main CSS  -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<!-- JavaScript -->
+	<script src="js/jquery-2.1.1.js" type="text/javascript"></script>
+	<script src="js/jquery.xdomainajax.js" type="text/javascript"></script>
+    <script src="js/jquery.tmpl.js" type="text/javascript"></script>
+	<script src="js/main.js"></script>	
+	
+</head>
+<body id="body">
+
+<div id="header"></div>
+
+<script id="headerContainer" type="text/x-jQuery-tmpl">
+	<div id="headerContent">
+		<a href="index.html"><img id="logo" src="images/Photo-Collect-logo-white.png"></a>
+		<div id="line1"></div>		
+		<ul>
+			<li id="categories">Categories				
+				<ul id="menu">					
+					<!--<li class="borderLeft subCategories">
+						${categoryName}
+					</li>-->
+				</ul>
+			</li>
+			<div id="line2"></div>	
+			<li id="upload">Upload</li>
+		</ul>
+		<div id="line3"></div>
+		<a href="#" id="linkSingUp">Sign Up</a>
+		<a href="#" id="linkSingIn">Sign In</a>
+		<input type="text" name="searchBox" id="searchBox" placeholder="Search PhotoCollect">
+	</div>
+</script>
+
+</body>
+</html>
